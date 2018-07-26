@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
   s.author = { "alfredolucomav" => "alfredo.luco@mavericks" }
 
   # 5
-  s.homepage = ""
+  s.homepage = "https://github.com/alfredolucomav/AWSSNSSubscriptor"
 
   # 6
-  s.source = { :git => "", :tag => "0.0.1" }
+  s.source = { :git => "https://github.com/alfredolucomav/AWSSNSSubscriptor", :tag => "0.0.1" }
 
   # 7
   s.ios.frameworks = 'UIKit', 'Foundation'
