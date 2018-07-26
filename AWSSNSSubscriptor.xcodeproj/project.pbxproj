@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C50311FBF04C90B8F51DD15 /* Pods_AWSSNSSubscriptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31DEEDA55A0A52891EBA2508 /* Pods_AWSSNSSubscriptor.framework */; };
+		4EE7CC1522FABECD62C7E7F3 /* Pods_AWSSNSSubscriptorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDEF6BEA333141E9E3EA037 /* Pods_AWSSNSSubscriptorTests.framework */; };
 		99FFB075210A143400997C26 /* AWSSNSSubscriptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FFB06B210A143400997C26 /* AWSSNSSubscriptor.framework */; };
 		99FFB07A210A143400997C26 /* AWSSNSSubscriptorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB079210A143400997C26 /* AWSSNSSubscriptorTests.swift */; };
 		99FFB07C210A143400997C26 /* AWSSNSSubscriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 99FFB06E210A143400997C26 /* AWSSNSSubscriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99FFB087210A165B00997C26 /* AWSSNSSubscriptorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB086210A165B00997C26 /* AWSSNSSubscriptorConfiguration.swift */; };
+		99FFB089210A19C300997C26 /* AWSSNSSubscriptorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FFB088210A19C300997C26 /* AWSSNSSubscriptorManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +27,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CDEF6BEA333141E9E3EA037 /* Pods_AWSSNSSubscriptorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSSNSSubscriptorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DEEDA55A0A52891EBA2508 /* Pods_AWSSNSSubscriptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSSNSSubscriptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3320DFE5E65E7B318BE98216 /* Pods-AWSSNSSubscriptor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSSNSSubscriptor.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSSNSSubscriptor/Pods-AWSSNSSubscriptor.release.xcconfig"; sourceTree = "<group>"; };
+		660F719D6C768E6ABAFF0BF5 /* Pods-AWSSNSSubscriptorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSSNSSubscriptorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSSNSSubscriptorTests/Pods-AWSSNSSubscriptorTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D5A0A70ED1F19107F24C65D /* Pods-AWSSNSSubscriptor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSSNSSubscriptor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSSNSSubscriptor/Pods-AWSSNSSubscriptor.debug.xcconfig"; sourceTree = "<group>"; };
 		99FFB06B210A143400997C26 /* AWSSNSSubscriptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AWSSNSSubscriptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FFB06E210A143400997C26 /* AWSSNSSubscriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWSSNSSubscriptor.h; sourceTree = "<group>"; };
 		99FFB06F210A143400997C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99FFB074210A143400997C26 /* AWSSNSSubscriptorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWSSNSSubscriptorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FFB079210A143400997C26 /* AWSSNSSubscriptorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSSNSSubscriptorTests.swift; sourceTree = "<group>"; };
 		99FFB07B210A143400997C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99FFB086210A165B00997C26 /* AWSSNSSubscriptorConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSSNSSubscriptorConfiguration.swift; sourceTree = "<group>"; };
+		99FFB088210A19C300997C26 /* AWSSNSSubscriptorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSSNSSubscriptorManager.swift; sourceTree = "<group>"; };
+		A2FED2529AD7CB7925510A93 /* Pods-AWSSNSSubscriptorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSSNSSubscriptorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSSNSSubscriptorTests/Pods-AWSSNSSubscriptorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C50311FBF04C90B8F51DD15 /* Pods_AWSSNSSubscriptor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +57,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				99FFB075210A143400997C26 /* AWSSNSSubscriptor.framework in Frameworks */,
+				4EE7CC1522FABECD62C7E7F3 /* Pods_AWSSNSSubscriptorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A65D5F1E887DA263C9540D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D5A0A70ED1F19107F24C65D /* Pods-AWSSNSSubscriptor.debug.xcconfig */,
+				3320DFE5E65E7B318BE98216 /* Pods-AWSSNSSubscriptor.release.xcconfig */,
+				A2FED2529AD7CB7925510A93 /* Pods-AWSSNSSubscriptorTests.debug.xcconfig */,
+				660F719D6C768E6ABAFF0BF5 /* Pods-AWSSNSSubscriptorTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		99FFB061210A143400997C26 = {
 			isa = PBXGroup;
 			children = (
+				99FFB085210A15E100997C26 /* Sources */,
 				99FFB06D210A143400997C26 /* AWSSNSSubscriptor */,
 				99FFB078210A143400997C26 /* AWSSNSSubscriptorTests */,
 				99FFB06C210A143400997C26 /* Products */,
+				3A65D5F1E887DA263C9540D9 /* Pods */,
+				EC74C07614A39338DF99B563 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +114,24 @@
 			path = AWSSNSSubscriptorTests;
 			sourceTree = "<group>";
 		};
+		99FFB085210A15E100997C26 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				99FFB086210A165B00997C26 /* AWSSNSSubscriptorConfiguration.swift */,
+				99FFB088210A19C300997C26 /* AWSSNSSubscriptorManager.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		EC74C07614A39338DF99B563 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31DEEDA55A0A52891EBA2508 /* Pods_AWSSNSSubscriptor.framework */,
+				1CDEF6BEA333141E9E3EA037 /* Pods_AWSSNSSubscriptorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -104,10 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99FFB07F210A143400997C26 /* Build configuration list for PBXNativeTarget "AWSSNSSubscriptor" */;
 			buildPhases = (
+				53D587E431C43533B92EF770 /* [CP] Check Pods Manifest.lock */,
 				99FFB066210A143400997C26 /* Sources */,
 				99FFB067210A143400997C26 /* Frameworks */,
 				99FFB068210A143400997C26 /* Headers */,
 				99FFB069210A143400997C26 /* Resources */,
+				1C1E3609B8FFDE3B44584969 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99FFB082210A143400997C26 /* Build configuration list for PBXNativeTarget "AWSSNSSubscriptorTests" */;
 			buildPhases = (
+				3D81E73DC6FCA18646094CBA /* [CP] Check Pods Manifest.lock */,
 				99FFB070210A143400997C26 /* Sources */,
 				99FFB071210A143400997C26 /* Frameworks */,
 				99FFB072210A143400997C26 /* Resources */,
+				592516ACE711405FB0A87BB9 /* [CP] Embed Pods Frameworks */,
+				6B540268B8FF6BF975B0CDEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,6 +199,7 @@
 				TargetAttributes = {
 					99FFB06A210A143400997C26 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					99FFB073210A143400997C26 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -189,11 +241,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C1E3609B8FFDE3B44584969 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSNSSubscriptor/Pods-AWSSNSSubscriptor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D81E73DC6FCA18646094CBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSSNSSubscriptorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53D587E431C43533B92EF770 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWSSNSSubscriptor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		592516ACE711405FB0A87BB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AWSSNSSubscriptorTests/Pods-AWSSNSSubscriptorTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSSNS/AWSSNS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSSNS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSNSSubscriptorTests/Pods-AWSSNSSubscriptorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B540268B8FF6BF975B0CDEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSNSSubscriptorTests/Pods-AWSSNSSubscriptorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99FFB066210A143400997C26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99FFB087210A165B00997C26 /* AWSSNSSubscriptorConfiguration.swift in Sources */,
+				99FFB089210A19C300997C26 /* AWSSNSSubscriptorManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +481,9 @@
 		};
 		99FFB080210A143400997C26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5A0A70ED1F19107F24C65D /* Pods-AWSSNSSubscriptor.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -356,6 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cl.mavericks.AWSSNSSubscriptor;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,7 +509,9 @@
 		};
 		99FFB081210A143400997C26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3320DFE5E65E7B318BE98216 /* Pods-AWSSNSSubscriptor.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -388,7 +536,9 @@
 		};
 		99FFB083210A143400997C26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2FED2529AD7CB7925510A93 /* Pods-AWSSNSSubscriptorTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = APZUH93ZJ4;
 				INFOPLIST_FILE = AWSSNSSubscriptorTests/Info.plist;
@@ -406,7 +556,9 @@
 		};
 		99FFB084210A143400997C26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 660F719D6C768E6ABAFF0BF5 /* Pods-AWSSNSSubscriptorTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = APZUH93ZJ4;
 				INFOPLIST_FILE = AWSSNSSubscriptorTests/Info.plist;

@@ -5,6 +5,7 @@
 //  Created by Mavericks's iOS Dev on 7/26/18.
 //  Copyright © 2018 Mavericks. All rights reserved.
 //
+//TODO: Testing
 
 import XCTest
 @testable import AWSSNSSubscriptor
@@ -19,6 +20,9 @@ class AWSSNSSubscriptorTests: XCTestCase {
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
+    }
+    
+    func testNoConfig(){
     }
     
     func testExample() {
