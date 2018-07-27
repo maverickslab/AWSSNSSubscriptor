@@ -29,7 +29,7 @@ public class AWSSNSSubscriptorConfiguration{
     
     public init(secret: String, access: String){
         //init
-        self.accessKey = secret
+        self.secretKey = secret
         self.accessKey = access
     }
 }
