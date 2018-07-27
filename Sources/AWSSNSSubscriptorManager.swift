@@ -65,6 +65,10 @@ public class AWSSNSSubscriptorManager{
             let defaults = UserDefaults.standard
             defaults.set(response?.endpointArn, forKey: "endpointArn")
             defaults.synchronize()
+            
+            if(eror != nil){
+                print(eror!)
+            }
         }
     }
     
@@ -100,7 +104,9 @@ public class AWSSNSSubscriptorManager{
             
             //subscribe
             sns.subscribe(input!) { (response, error) in
-                
+                if(error != nil){
+                    print(error!)
+                }
             }
         }
     }
