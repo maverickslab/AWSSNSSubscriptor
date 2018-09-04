@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/maverickslab/AWSSNSSubscriptor"
 
   # 6
-  s.source = { :git => "https://github.com/maverickslab/AWSSNSSubscriptor", :tag => "0.0.2" }
+  s.source = { :git => "https://github.com/maverickslab/AWSSNSSubscriptor", :tag => "0.0.3" }
 
   # 7
   s.ios.frameworks = 'UIKit', 'Foundation'
