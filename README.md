@@ -1,6 +1,6 @@
 # AWSSNSSubscriptor
 Subscriptions on AWS's SNS
 
-#Installation
+# Installation
 `pod 'AWSSNSSubscriptor'`
 `pod install`
