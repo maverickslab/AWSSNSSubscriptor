@@ -155,7 +155,6 @@
 				99FFB067210A143400997C26 /* Frameworks */,
 				99FFB068210A143400997C26 /* Headers */,
 				99FFB069210A143400997C26 /* Resources */,
-				1C1E3609B8FFDE3B44584969 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,7 +174,6 @@
 				99FFB071210A143400997C26 /* Frameworks */,
 				99FFB072210A143400997C26 /* Resources */,
 				592516ACE711405FB0A87BB9 /* [CP] Embed Pods Frameworks */,
-				6B540268B8FF6BF975B0CDEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,6 +201,7 @@
 					};
 					99FFB073210A143400997C26 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -242,21 +241,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1C1E3609B8FFDE3B44584969 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSNSSubscriptor/Pods-AWSSNSSubscriptor-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3D81E73DC6FCA18646094CBA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,7 +283,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AWSSNSSubscriptorTests/Pods-AWSSNSSubscriptorTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-AWSSNSSubscriptorTests/Pods-AWSSNSSubscriptorTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSSNS/AWSSNS.framework",
 			);
@@ -310,22 +294,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSNSSubscriptorTests/Pods-AWSSNSSubscriptorTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6B540268B8FF6BF975B0CDEB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWSSNSSubscriptorTests/Pods-AWSSNSSubscriptorTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AWSSNSSubscriptorTests/Pods-AWSSNSSubscriptorTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -502,7 +471,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -529,7 +498,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cl.mavericks.AWSSNSSubscriptor;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -549,7 +518,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cl.mavericks.AWSSNSSubscriptorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -569,7 +538,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cl.mavericks.AWSSNSSubscriptorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
