@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # 2
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
 
   # 3
   #s.licence = { :type => "MIT", :file => "LICENSE" }
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/maverickslab/AWSSNSSubscriptor"
 
   # 6
-  s.source = { :git => "https://github.com/maverickslab/AWSSNSSubscriptor", :tag => "0.0.5" }
+  s.source = { :git => "https://github.com/maverickslab/AWSSNSSubscriptor", :tag => "0.0.6" }
 
   # 7
   s.ios.frameworks = 'UIKit', 'Foundation'
