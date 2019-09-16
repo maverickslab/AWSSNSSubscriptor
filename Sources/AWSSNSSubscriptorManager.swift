@@ -95,6 +95,9 @@ public class AWSSNSSubscriptorManager{
         let input = AWSSNSSubscribeInput()
         input?.topicArn = topicArn
         
+        //Firstly unsubscribe topic arn
+        self.unsubscribeDeviceFromTopic(topicArn: topicArn)
+        
         let defaults = UserDefaults.standard
         
         //endpoint arn
